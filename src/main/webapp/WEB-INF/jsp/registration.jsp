@@ -37,9 +37,10 @@
                     <td>
                         <form:input path="name" />
                     </td>
+                        <form:errors path="name" cssClass="error" />
                 </tr>
                     <tr>
-                        <td colspan="2">
+                        <td colspan="3">
                             <input type="submit" value="<spring:message code="save.changes"/>"/>
                         </td>
                     </tr>
